@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family= Poppins & display=swap') ;
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282b62;
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    background-image: url(image/banner.jpg);
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.person-container {
+    color: aliceblue;
+}
+
+.person-container__img {
+    width: 160px;
+    border-radius: 50%;
+    border: 8px solid aliceblue;
+    margin-bottom: 24px;
+}
+
+.person-container__name {
+    font-size: 40px;
+    margin: 8px;
+    font-family: 'Poppins';
+}
+
+.person-container__subtitle {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.info-container {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    color: aliceblue;
+}
+
+.info-box {
+    width: 360px;
+    width: 200px;
+    background-color: black;
+    padding: 24px;
+    border-radius: 32px;
+}
+
+.info-box__title {
+    font-family: 'Poppins';
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.contact-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.contact-container__link {
+    background-color: aliceblue;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+display: flex;
+justify-content: center;
+}
+
+.contact-container__icon {
+width: 32px;
+}
+
+.link-projetos {
+    color: aliceblue;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.img-projetos {
+border-radius: 50%;
+width: 120px;
+} 
+
+.ferramentas {
+    width: 130px;
+    border-radius: 50%;
+    justify-content: center;
+}
